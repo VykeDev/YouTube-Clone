@@ -18,8 +18,10 @@ function Navbar() {
       </div>
 
       <div className="nav-middle flex-div">
-        <input type="text" placeholder="Search" />
-        <img src={search_icon} alt="search_ico" />
+        <div className="search-box flex-div">
+          <input type="text" placeholder="Search" />
+          <img src={search_icon} alt="search_ico" />
+        </div>
       </div>
 
       <div className="nav-right flex-div">
